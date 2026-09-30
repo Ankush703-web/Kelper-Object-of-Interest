@@ -34,10 +34,10 @@ jobs:
           python -m src.train --dataset build/kepler_koi.csv --mode normal
 
       - name: Run application tests
-  env:
-    PYTHONPATH: ${{ github.workspace }}
-  run: |
-    pytest -q
+  	env:
+   	 PYTHONPATH: ${{ github.workspace }}
+  	run: |
+   	 pytest -q
 
       - name: Prepare validated model package
         run: |
