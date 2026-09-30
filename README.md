@@ -358,7 +358,6 @@ Because the training step fails, the test step and artifact upload are not reach
 
 ### Evidence to record
 
-Copy the GitHub Actions run URL into this README:
 
 ```text
 Failure A run:
@@ -456,8 +455,6 @@ Application tests PASS
 Artifact upload  PASS
 ```
 
-Record the successful workflow URL:
-
 ```text
 Final successful run:
 PASTE_FINAL_SUCCESS_RUN_URL_HERE
@@ -494,7 +491,6 @@ GitHub → Actions → successful workflow run → Artifacts
 
 Also download a local copy because GitHub Actions artifacts have a limited retention period.
 
-Record the artifact name here:
 
 ```text
 Successful artifact:
