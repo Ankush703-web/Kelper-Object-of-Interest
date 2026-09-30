@@ -34,14 +34,15 @@ jobs:
           python -m src.train --dataset build/kepler_koi.csv --mode normal
 
       - name: Run application tests
-  	env:
-    	 PYTHONPATH: ${{ github.workspace }}
-  	run: |
-    	 pytest -q
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          pytest -q
 
       - name: Prepare validated model package
         run: |
           mkdir -p package
+
           cp build/kepler_model.joblib package/
           cp build/metrics.json package/
           cp src/predict.py package/
@@ -55,6 +56,7 @@ jobs:
           cd package
           zip -r "../kepler-model-package-${GITHUB_RUN_NUMBER}.zip" .
           cd ..
+
           mkdir -p build
           mv "kepler-model-package-${GITHUB_RUN_NUMBER}.zip" build/
 
