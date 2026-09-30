@@ -21,7 +21,7 @@ def predict(sample: dict | pd.DataFrame, model_path: str | Path = MODEL_PATH):
 
     X = sample[FEATURES]
     model = joblib.load(model_path)
-    return model.predict(X).reshape(-1, 1)
+    return model.predict(X)
 
 if __name__ == "__main__":
     example = {feature: 0.0 for feature in FEATURES}
