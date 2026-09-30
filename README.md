@@ -1,4 +1,4 @@
-# Automating an ML Pipeline with GitHub Actions For Kelper Object Identification(KOI) dataset
+# Automating an ML Pipeline with GitHub Actions For Kelper Object of Interest(KOI) dataset
 
 ## 1. Project overview
 
