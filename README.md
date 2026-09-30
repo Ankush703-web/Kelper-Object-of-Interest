@@ -1,4 +1,4 @@
-# Lab Assignment 4 — Automating an ML Pipeline with GitHub Actions
+# Automating an ML Pipeline with GitHub Actions For Kelper Object Identification(KOI) dataset
 
 ## 1. Project overview
 
