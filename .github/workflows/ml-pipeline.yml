@@ -31,7 +31,7 @@ jobs:
 
       - name: Train model and enforce quality gate
         run: |
-          python -m src.train --dataset build/kepler_koi.csv --mode weak
+          python -m src.train --dataset build/kepler_koi.csv --mode normal
 
       - name: Run application tests
         env:
