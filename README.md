@@ -601,34 +601,8 @@ It is an early/intermediate automated MLOps implementation. It provides reproduc
 
 ---
 
-## 19. Important submission checklist
 
-Before submitting to Classroom, verify:
-
-- [ ] Repository is public or instructor has access.
-- [ ] `src/data.py` exists.
-- [ ] `src/train.py` exists.
-- [ ] `src/predict.py` exists.
-- [ ] `tests/test_prediction.py` exists.
-- [ ] `requirements.txt` exists.
-- [ ] `.github/workflows/ml-pipeline.yml` exists.
-- [ ] Dataset download works automatically.
-- [ ] Dataset is not dependent on Colab/Google Drive.
-- [ ] Baseline is trained.
-- [ ] Candidate is evaluated against baseline.
-- [ ] F1 margin is fixed at 0.05.
-- [ ] Missing columns cause failure.
-- [ ] Quality-gate failure produces non-zero exit code.
-- [ ] Application tests run in the same job.
-- [ ] Failed application test prevents artifact publication.
-- [ ] Failure A run URL is added.
-- [ ] Failure B run URL is added.
-- [ ] Final successful run URL is added.
-- [ ] Successful artifact is downloaded locally.
-- [ ] Artifact contains model, preprocessing, metrics, prediction script and requirements.
-- [ ] README contains all five required answers.
-
-## 20. References
+## 19. References
 
 NASA Exoplanet Archive — Kepler Mission:
 https://exoplanetarchive.ipac.caltech.edu/docs/KeplerMission.html
