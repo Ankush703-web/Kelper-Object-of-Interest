@@ -138,7 +138,7 @@ The margin is expressed in F1-score units.
 ## 6. Project structure
 
 ```text
-kepler-mlops-lab4/
+kepler-cloud-deployment/
 ├── .github/
 │   └── workflows/
 │       └── ml-pipeline.yml
@@ -166,7 +166,6 @@ The dataset is downloaded automatically by `src/data.py`; it does not need to be
 
 ```bash
 git clone YOUR_REPOSITORY_URL
-cd kepler-mlops-lab4
 ```
 
 ### Create environment
@@ -363,7 +362,7 @@ Copy the GitHub Actions run URL into this README:
 
 ```text
 Failure A run:
-PASTE_GITHUB_ACTIONS_FAILURE_A_URL_HERE
+https://github.com/Ankush703-web/Kelper-Object-Interest-KOI-/actions/runs/36706476330/job/109857802399
 ```
 
 ---
@@ -426,7 +425,7 @@ Therefore the GitHub Actions job stops at the application test step and does not
 
 ```text
 Failure B run:
-PASTE_GITHUB_ACTIONS_FAILURE_B_URL_HERE
+https://github.com/Ankush703-web/Kelper-Object-Interest-KOI-/actions/runs/36708608084/job/109864737762
 ```
 
 ---
